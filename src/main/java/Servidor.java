@@ -11,7 +11,7 @@ public class Servidor {
                     autorizaCliente.start();
                 }
                 }   catch(Exception e) {
-                System.err.println("[ERRO] - Nao foi possivel inicializar servidor");
+                System.err.println("[ERRO] - Nao foi possivel inicializar servidor\n Motivo: " + e.getMessage());
             }
     }
 }
